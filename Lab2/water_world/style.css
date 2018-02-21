@@ -1,0 +1,25 @@
+.world, .water, .wooden-ship, .clouds{
+	position: absolute;
+}
+.main{
+	background: rgb(128,205,198);
+	width: 700px;
+	height: 550px;
+}
+.clouds{
+	width: 400px;
+  	left: 290px;
+}
+.world{
+	width: 700px;
+  	top: 100px;
+}
+.wooden-ship{
+	width: 145px;
+	top: 345px;
+  	left: 30px;
+}
+.water{
+	width: 700px;
+	top: 480px;
+}
