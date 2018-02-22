@@ -35,7 +35,7 @@ p {
 }
 .side {
     font-weight: 700px;
-    width: 180;
+    width: 180px;
     display: inline-block;
 }
 p:nth-child(even) {
