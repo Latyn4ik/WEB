@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+table{
+	text-align: center;
+	font-family: Calibri;
+	border-collapse: collapse;
+	border-bottom: 2px solid rgb(103,203,113); 
+	border-top: 2px solid rgb(103,203,113);
+	border-right: 2px solid rgb(221,221,221);
+	border-left: 2px solid rgb(221,221,221);
+	margin: 0 auto;
+	width: 100%;
+	max-width: 300px;
+}
+td {
+	height: 45px;}
+.one {
+	color:  rgb(103,203,113);
+	height: 80px;
+	font-size: 35px;
+	font-weight: 700;
+}
+.two {
+	font-weight: 700;
+	font-size: 35px;
+	background: rgb(103,203,113);
+	color: white;
+}
+tr:nth-child(even) {
+	background: rgb(247,247,247);
+}
+.buy {
+	width: 100px; 
+	height: 28px;
+	color: rgb(103,203,113);
+	border: 2px solid rgb(103,203,113);
+	border-radius: 5px;
+	margin: auto;
+	padding-top: 12px;
+}
+.td_buy{
+	height: 110px;
+}
