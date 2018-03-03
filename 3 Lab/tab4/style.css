@@ -1,0 +1,82 @@
+*{
+	margin:0;
+  	padding:0;
+}
+.main {
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
+  	overflow: hidden;
+}
+h { font-weight: bold;}
+
+table {
+	width: 190px;
+  	float:left;
+  	margin:10px;
+    border-collapse: collapse;
+    text-align:center;
+  	font-size: 12px;
+}
+td {
+  height:30px;
+  color:gray;
+}
+.end {
+	padding-bottom: 10px; 
+	border-bottom:0.5px dashed gray;
+}
+
+.green_p, .orange_p, .red_p {
+	height: 50px;
+	color:white;
+	font-weight: bold;
+    font-size: 25px;
+}
+.green_s, .orange_s, .red_s {
+	height: 40px;
+  	color:white;
+  	font-size: 20px;
+
+}
+.green_btn, .orange_btn, .red_btn {
+	width:120px;
+	height:40px;
+	color: white;
+	border:none;
+	font-size: 16px;
+}
+.green_table {
+  border: 2px solid rgb(19, 145, 123);
+  border-bottom: 7px solid rgb(19, 145, 123);
+}
+.green_p, .green_s, .green_btn {
+   background: rgb(22, 160, 134);
+}
+.green_s {
+	border-bottom: 7px solid rgb(19, 145, 123);
+}
+.orange_table {
+  border: 2px solid rgb(205, 129, 9);
+  border-bottom: 7px solid rgb(205, 129, 9);
+}
+.orange_p, .orange_s, .orange_btn {
+  background: rgb(243, 156, 17);
+}
+.orange_s {
+  	border-bottom: 7px solid rgb(205, 129, 9);
+}
+.red_table {
+  border: 2px solid rgb(160, 48, 34);
+  border-bottom: 7px solid rgb(160, 48, 34);
+}
+.red_p, .red_s, .red_btn {
+  background: rgb(193, 57, 43);
+}
+.red_s {
+    border-bottom: 7px solid rgb(160, 48, 34);
+}
+.for_btn
+{
+  height:80px;
+}
