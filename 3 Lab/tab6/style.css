@@ -1,0 +1,35 @@
+body {
+
+}
+table {
+	width:600px;
+    margin: auto;
+    border-collapse:separate;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+ }
+ td {
+    width: 80px;
+    height: 35px;
+    color:#666;
+	background: rgb(222,243,204);
+}
+.empty {
+    background: white;
+}
+.one {
+    background: rgb(123,192,67);
+    color: white;
+}
+.two, .three {
+    background: white;
+}
+.three {
+    color: #9CD009;
+    font-size:29px;
+}
+.ok img {
+    width: 25px;
+}
