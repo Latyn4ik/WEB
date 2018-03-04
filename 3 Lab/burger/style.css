@@ -1,0 +1,95 @@
+* {
+    left: 0;
+    top: 0;
+}
+.one, .all_menu, .rombs {
+	position: absolute;
+}
+.fullwrap {
+    width: 920px;
+    height: 480px;
+    background-color: rgb(50,39,39);
+    padding: 30px;
+}
+.one {
+	width: 350px;
+    height: 230px;
+    left: 28px;
+    top: 160px;
+    font-size: 45px;
+    color: #fff;
+    padding: 20px 0;
+    font-style: italic bold;
+    text-align: center;
+    background-color: #000;
+}
+.one span, p {
+    font-size: 12px;
+    font-weight: 900;
+    font-family: Arial, sans-serif;
+}
+.one span {
+	color: rgb(253,202,25);
+}
+
+img {
+    float: left;
+    width: 350px;
+    height: 420px;
+}
+.main {
+	width: 550px;
+    height: 400px;
+    padding: 20px 0 0 0;
+    text-align: center;
+    background-color: #fff;
+    font-size: 18px;
+    float: left;
+}
+.menu {
+	width: 220px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 25px;
+    float: left;
+    font-size: 20px;
+}
+.menu span {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: #dbdbdb;
+}
+.all_menu {
+	width: 140px;
+    height: 30px;
+    top: 465px;
+    left: 800px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+hr {
+    color: #dfdfdf;
+}
+.rombs {
+	width: 10px;
+    height: 10px;
+    background-color: rgb(213,213,213);
+    transform: rotate(45deg);
+}
+.r1, .r3 {
+    top: 158px;
+}
+.r4, .r6 {
+	top: 267px;
+}
+.r2, .r5 {
+	top: 374px;
+}
+.r1, .r2, .r4 {
+	left: 520px;
+}
+.r3, .r5, .r6 {
+    left: 790px;    
+}
